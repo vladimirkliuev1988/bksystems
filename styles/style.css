@@ -1,0 +1,754 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+.live .rusters, .live .poker, .live .keno, .live .horseracing, .live .dogracing, .live .roulette {
+  width: 312px;
+  height: 262px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.contactsection .contactinformation .textcontact .iconwebsite, .contactsection .contactinformation .textcontact .iconemail, .contactsection .contactinformation .textcontact .icontel, .contactsection .contactinformation .textcontact .iconadress {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: #14213A;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer .imagefooter .rustersfooter, .footer .imagefooter .roulettefooter, .footer .imagefooter .kenofooter, .footer .imagefooter .horseracingfooter, .footer .imagefooter .pokerfooter, .footer .imagefooter .dogracingfooter {
+  width: 97px;
+  height: 100px;
+}
+
+.dogpage, .horsepage, .kenopage, .rusterspage, .pokerpage, .roulettepage {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #09162F;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.dogpage .onastextarea, .horsepage .onastextarea, .kenopage .onastextarea, .rusterspage .onastextarea, .pokerpage .onastextarea, .roulettepage .onastextarea {
+  width: 735px;
+  height: 480px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 76px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+.header .topbar {
+  display: flex;
+  flex-flow: row wrap;
+  background: rgba(9, 22, 47, 0.64);
+  padding: 10px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12px;
+  color: rgb(255, 196, 54);
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header .topbar .navbar {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .topbar .flag {
+  padding-bottom: 10px;
+  width: 45px;
+  height: 40px;
+  background: url(../images/flag_ru.png);
+}
+.header .topbar .menu {
+  display: flex;
+  gap: 25px;
+}
+.header .topbar .menu .amenu {
+  display: flex;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.header .topbar .menu .amenu:hover {
+  color: #FFC436;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/1.jpg);
+  background-size: cover;
+}
+.banner .bannertextarea {
+  display: flex;
+  flex-direction: column;
+  width: 622px;
+  padding: 150px;
+}
+.banner .bannertextarea .buttonbannerleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #FFC436;
+}
+.banner .bannertextarea .buttonbannerleft:hover {
+  opacity: 0.8;
+}
+.banner .bannertextarea .textbuttonleft {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.banner .bannertextarea .buttonbannersection {
+  display: flex;
+  gap: 20px;
+}
+.banner .bannertextarea .buttonbannerright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #FFFDFD;
+}
+.banner .bannertextarea .buttonbannerright:hover {
+  opacity: 0.8;
+}
+.banner .bannertextarea .textbuttonright {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.onas {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #09162F;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.onas .imgonas {
+  background: url(../images/2.jpg);
+  width: 735px;
+  height: 480px;
+}
+.onas .onastextarea {
+  width: 735px;
+  height: 480px;
+}
+
+.liveandvirtual {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/3.jpg);
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.live {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.live .game {
+  display: flex;
+  width: 312px;
+  height: 400px;
+  background: rgba(20, 33, 58, 0.3882352941);
+  box-shadow: 0px 2px 8px #071737;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+.live .roulette {
+  background: url(../images/roulette.jpg);
+}
+.live .dogracing {
+  background: url(../images/dogracing.jpg);
+}
+.live .horseracing {
+  background: url(../images/horseracing.jpg);
+}
+.live .keno {
+  background: url(../images/keno.jpg);
+}
+.live .poker {
+  background: url(../images/poker.jpg);
+}
+.live .rusters {
+  background: url(../images/ruster.jpg);
+}
+.live .gametext {
+  text-align: center;
+}
+.live .buttongame {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  background: #FFC814;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.live .buttongame:hover {
+  opacity: 0.8;
+}
+.live .abuttongame {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #22283C;
+}
+
+.sovmestimost {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #09162F;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sovmestimost .sovmestimostelements {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+.sovmestimost .sovmestimostelements .sovmestmostcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sovmestimost .sovmestimostelements .imgterminal {
+  background: url(../images/xl.webp);
+  width: 233px;
+  height: 273px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+.sovmestimost .sovmestimostelements .imgmonitor {
+  background: url(../images/xxl.webp);
+  width: 400px;
+  height: 273px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+.sovmestimost .sovmestimostelements .imgonline {
+  background: url(../images/xxxl.webp);
+  width: 233px;
+  height: 273px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.onlinecasino {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/Online-casino-scaled.jpg);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.onlinecasino .contentonline {
+  width: 735px;
+}
+
+.contactsection {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #0F1B33;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.contactsection .contactinformation {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  height: 547px;
+  gap: 30px;
+}
+.contactsection .contactinformation .textcontact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contactsection .contactinformation .textcontact .iconadress {
+  background-image: url(../images/icon1.png);
+}
+.contactsection .contactinformation .textcontact .icontel {
+  background-image: url(../images/icon2.png);
+}
+.contactsection .contactinformation .textcontact .iconemail {
+  background-image: url(../images/icon3.png);
+}
+.contactsection .contactinformation .textcontact .iconwebsite {
+  background-image: url(../images/icon4.png);
+}
+.contactsection .contactinformation .textcontact .textcontactinf {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactsection .contactinformation .textcontact .textcontactinf .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+.contactsection .contactinformation .textcontact .textcontactinf .description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.contactsection .formsection {
+  display: flex;
+  flex-direction: column;
+  width: 575px;
+  height: 538px;
+}
+.contactsection .onestring {
+  display: flex;
+  gap: 35px;
+}
+.contactsection .onestring .name {
+  border: 1px solid #14213A;
+  width: 270px;
+  height: 50px;
+  background: #14213A;
+}
+.contactsection .twocolumnform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactsection .twocolumnform .subject {
+  margin-top: 30px;
+  border: 1px solid #14213A;
+  width: 568px;
+  height: 50px;
+  background: #14213A;
+}
+.contactsection .twocolumnform .textarea {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #14213A;
+  background: #14213A;
+  width: 568px;
+  height: 210px;
+}
+.contactsection .buttonform {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  background: #FFC814;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.contactsection .abuttonform {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: white;
+}
+.contactsection .buttonform:hover {
+  opacity: 0.8;
+}
+
+.news {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #09162F;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.news .subscibe {
+  display: flex;
+}
+.news .subscibe .subscribeemail {
+  border: 1px solid #14213A;
+  width: 573px;
+  height: 50px;
+  background: #14213A;
+}
+.news .subscibe .buttonsubscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 54px;
+  background-color: #FFC436;
+}
+.news .subscibe .buttonsubscribe .asubscribe {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: white;
+}
+.news .subscibe .buttonsubscribe:hover {
+  opacity: 0.8;
+  animation-name: buttonanimation;
+  animation-duration: 4s;
+}
+@keyframes buttonanimation {
+  from {
+    width: 160px;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/4.jpg);
+  background-size: cover;
+  justify-content: space-around;
+}
+.footer .leftfooter {
+  display: flex;
+  flex-direction: column;
+  width: 329px;
+}
+.footer .leftfooter .socialicons {
+  background: url(../images/social1.png);
+  width: 220px;
+  height: 38.89px;
+  background-repeat: no-repeat;
+}
+.footer .leftnav {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footertitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.footer .footerdescription {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.footer .footerdescription:hover {
+  color: #FFC436;
+}
+.footer .rightfooter {
+  display: flex;
+  flex-direction: column;
+}
+.footer .imagefooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 311px;
+  height: 254px;
+  gap: 10px;
+}
+.footer .imagefooter .dogracingfooter {
+  background: url(../images/footerdog.jpg);
+}
+.footer .imagefooter .pokerfooter {
+  background: url(../images/footerpoker.jpg);
+}
+.footer .imagefooter .horseracingfooter {
+  background: url(../images/footerhorse.jpg);
+}
+.footer .imagefooter .kenofooter {
+  background: url(../images/footerkeno.jpg);
+}
+.footer .imagefooter .roulettefooter {
+  background: url(../images/footerroulette.jpg);
+}
+.footer .imagefooter .rustersfooter {
+  background: url(../images/footerruster.jpg);
+}
+
+.copyright {
+  display: flex;
+  background: #071737;
+  height: 99px;
+  justify-content: center;
+  align-items: center;
+}
+.copyright .allrights {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.roulettepage .imgroulettepage {
+  background: url(../images/roulette-gambling-1024x683.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.pokerpage .imgroulettepage {
+  background: url(../images/Poker-1024x683.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.rusterspage .imgroulettepage {
+  background: url(../images/Cockfight-1024x575.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.kenopage .imgroulettepage {
+  background: url(../images/keno-1024x683.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.horsepage .imgroulettepage {
+  background: url(../images/Horse-racing-1024x683.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.dogpage .imgroulettepage {
+  background: url(../images/greyhounds2502a-1024x683.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+@media all and (max-width: 1100px) {
+  .live {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .sovmestimost .sovmestimostelements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 800px) {
+  .banner {
+    padding-top: 110px;
+    padding-bottom: 24px;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .banner .bannertextarea {
+    display: flex;
+    flex-direction: column;
+    width: 599px;
+    align-items: center;
+    padding: 0%;
+  }
+  .live {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sovmestimost .sovmestimostelements {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .onas .onastextarea {
+    width: 500px;
+    height: 620px;
+    padding: 30px;
+  }
+  .onlinecasino .contentonline {
+    width: 500px;
+    padding: 30px;
+  }
+  .news .subscibe .subscribeemail {
+    border: 1px solid #14213A;
+    width: 220px;
+    height: 50px;
+    background: #14213A;
+  }
+  .contactsection .onestring {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+  }
+  .contactsection .onestring .name {
+    border: 1px solid #14213A;
+    width: 400px;
+    height: 50px;
+    background: #14213A;
+  }
+  .contactsection .twocolumnform .subject {
+    margin-top: 30px;
+    border: 1px solid #14213A;
+    width: 400px;
+    height: 50px;
+    background: #14213A;
+  }
+  .contactsection .twocolumnform .textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #14213A;
+    background: #14213A;
+    width: 400px;
+    height: 210px;
+  }
+  .contactsection {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #0F1B33;
+    padding-top: 30px;
+    padding-bottom: 130px;
+    justify-content: center;
+  }
+  .footer {
+    padding-top: 30px;
+    gap: 30px;
+    display: flex;
+    padding-bottom: 60px;
+    display: flex;
+    background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/4.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
