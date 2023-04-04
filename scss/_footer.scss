@@ -1,0 +1,84 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/footerimage.jpg);
+    background-size: cover;
+    justify-content: space-around;
+
+    .leftfooter {
+        display: flex;
+        flex-direction: column;
+        width: 329px;
+
+        .socialicons {
+            background: url(../images/social1.png);
+            width: 220px;
+            height: 38.89px;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .leftnav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footertitle {
+        @include font(Roboto, normal, 700, 24px, 30px, #FFFFFF);
+        padding-bottom: 20px;
+    }
+
+    .footerdescription {
+        text-decoration: none;
+        @include font(Roboto, normal, 600, 16px, 40px, #FFFFFF);
+    }
+    .footerdescription:hover{
+        color: #FFC436;
+    }
+
+    .rightfooter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagefooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 311px;
+        height: 254px;
+        gap: 10px;
+
+        .dogracingfooter {
+            background: url(../images/footerdog.jpg);
+            @extend %footerimage;
+        }
+
+        .pokerfooter {
+            background: url(../images/footerpoker.jpg);
+            @extend %footerimage;
+        }
+
+        .horseracingfooter {
+            background: url(../images/footerhorse.jpg);
+            @extend %footerimage;
+        }
+
+        .kenofooter {
+            background: url(../images/footerkeno.jpg);
+            @extend %footerimage;
+        }
+
+        .roulettefooter {
+            background: url(../images/footerroulette.jpg);
+            @extend %footerimage;
+        }
+
+        .rustersfooter {
+            background: url(../images/footerruster.jpg);
+            @extend %footerimage;
+        }
+    }
+}

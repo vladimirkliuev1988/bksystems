@@ -1,0 +1,416 @@
+@mixin font($family, $style, $weight, $size, $line, $color) {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/banner.jpg);
+    background-size: cover;
+
+    .bannertextarea {
+        display: flex;
+        flex-direction: column;
+        width: 622px;
+        padding: 150px;
+
+        .buttonbannerleft {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height: 50px;
+            border-radius: 2px;
+            background-color: #FFC436;
+        }
+
+        .buttonbannerleft:hover {
+            opacity: 0.8;
+        }
+
+        .textbuttonleft {
+            text-decoration: none;
+            @include font(Roboto, normal, 700, 16px, 15px, #FFFFFF);
+        }
+
+        .buttonbannersection {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .buttonbannerright {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height: 50px;
+            border-radius: 2px;
+            background-color: #FFFDFD;
+        }
+
+        .buttonbannerright:hover {
+            opacity: 0.8;
+        }
+
+        .textbuttonright {
+            text-decoration: none;
+            @include font(Roboto, normal, 700, 16px, 15px, #000000);
+        }
+
+    }
+
+}
+
+.onas {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #09162F;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .imgonas {
+        background: url(../images/onas.jpg);
+        width: 735px;
+        height: 480px;
+    }
+
+    .onastextarea {
+        width: 735px;
+        height: 480px;
+    }
+}
+
+
+.liveandvirtual {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/liveandvirtual.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.live {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .game {
+        display: flex;
+        width: 312px;
+        height: 400px;
+        background: #14213a63;
+        box-shadow: 0px 2px 8px #071737;
+        border-radius: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .roulette {
+        @extend %gameblock;
+        background: url(../images/roulette.jpg);
+    }
+
+    .dogracing {
+        @extend %gameblock;
+        background: url(../images/dogracing.jpg);
+    }
+
+    .horseracing {
+        @extend %gameblock;
+        background: url(../images/horseracing.jpg);
+    }
+
+    .keno {
+        @extend %gameblock;
+        background: url(../images/keno.jpg);
+    }
+
+    .poker {
+        @extend %gameblock;
+        background: url(../images/poker.jpg);
+    }
+
+    .rusters {
+        @extend %gameblock;
+        background: url(../images/ruster.jpg);
+    }
+
+    .gametext {
+        text-align: center;
+    }
+
+    .buttongame {
+        display: flex;
+        width: 140px;
+        height: 40px;
+        background: #FFC814;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttongame:hover {
+        opacity: 0.8;
+    }
+
+    .abuttongame {
+        text-decoration: none;
+        @include font(Roboto, normal, 600, 16px, 18px, #22283C);
+    }
+}
+
+
+.sovmestimost {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #09162F;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .sovmestimostelements {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 100px;
+
+        .sovmestmostcontent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .imgterminal {
+            background: url(../images/terminal.webp);
+            width: 233px;
+            height: 273px;
+            border-radius: 8px;
+            background-repeat: no-repeat;
+        }
+
+        .imgmonitor {
+            background: url(../images/monitor.webp);
+            width: 400px;
+            height: 273px;
+            border-radius: 8px;
+            background-repeat: no-repeat;
+        }
+
+        .imgonline {
+            background: url(../images/online.webp);
+            width: 233px;
+            height: 273px;
+            border-radius: 8px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.onlinecasino {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/backgroundonlinecasino.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+
+    .contentonline {
+        width: 735px;
+    }
+}
+
+.contactsection {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #0F1B33;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    .contactinformation {
+        display: flex;
+        flex-direction: column;
+        width: 411px;
+        height: 547px;
+        gap: 30px;
+
+        .textcontact {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .iconadress {
+                @extend %icon;
+                background-image: url(../images/icon1.png);
+            }
+
+            .icontel {
+                @extend %icon;
+                background-image: url(../images/icon2.png);
+            }
+
+            .iconemail {
+                @extend %icon;
+                background-image: url(../images/icon3.png);
+            }
+
+            .iconwebsite {
+                @extend %icon;
+                background-image: url(../images/icon4.png);
+            }
+
+            .textcontactinf {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .title {
+                    @include font(Roboto, normal, 700, 20px, 10px, #FFFFFF);
+                }
+
+                .description {
+                    @include font(Roboto, normal, 500, 16px, 28px, #FFFFFF);
+                }
+            }
+        }
+    }
+
+    .formsection {
+        display: flex;
+        flex-direction: column;
+        width: 575px;
+        height: 538px;
+    }
+
+    .onestring {
+        display: flex;
+        gap: 35px;
+
+        .name {
+            border: 1px solid #14213A;
+            width: 270px;
+            height: 50px;
+            background: #14213A;
+        }
+    }
+
+    .twocolumnform {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .subject {
+            margin-top: 30px;
+            border: 1px solid #14213A;
+            width: 568px;
+            height: 50px;
+            background: #14213A;
+        }
+
+        .textarea {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #14213A;
+            background: #14213A;
+            width: 568px;
+            height: 210px;
+        }
+
+    }
+
+
+    .buttonform {
+        display: flex;
+        width: 200px;
+        height: 40px;
+        background: #FFC814;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .abuttonform {
+        text-decoration: none;
+        @include font(Roboto, normal, 700, 16px, 15px, white);
+    }
+
+    .buttonform:hover {
+        opacity: 0.8;
+    }
+}
+
+.news {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #09162F;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    .subscibe {
+        display: flex;
+
+        .subscribeemail {
+            border: 1px solid #14213A;
+            width: 573px;
+            height: 50px;
+            background: #14213A;
+        }
+
+        .buttonsubscribe {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height: 54px;
+            background-color: #FFC436;
+
+            .asubscribe {
+                text-decoration: none;
+                @include font(Roboto, normal, 700, 16px, 15px, white);
+            }
+        }
+
+        .buttonsubscribe:hover {
+            opacity: 0.8;
+            animation-name: buttonanimation;
+            animation-duration: 4s;
+        }
+
+        @keyframes buttonanimation {
+            from {
+                width: 160px;
+            }
+
+            to {
+                width: 200px;
+            }
+        }
+    }
+}

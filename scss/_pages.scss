@@ -1,0 +1,49 @@
+
+.roulettepage {
+    @extend %pageonas;
+    .imgroulettepage{
+        background:url(../images/rouletteonpage.jpg);
+        width: 735px;
+        height: 480px;
+    }
+}
+.pokerpage {
+    @extend %pageonas;
+    .imgroulettepage{
+        background:url(../images/pokeronpage.jpg);
+        width: 735px;
+        height: 480px;
+    }
+}
+.rusterspage {
+    @extend %pageonas;
+    .imgroulettepage{
+        background:url(../images/rustersonpage.jpg);
+        width: 735px;
+        height: 480px;
+    }
+}
+.kenopage {
+    @extend %pageonas;
+    .imgroulettepage{
+        background:url(../images/kenoonpage.jpg);
+        width: 735px;
+        height: 480px;
+    }
+}
+.horsepage {
+    @extend %pageonas;
+    .imgroulettepage{
+        background:url(../images/horseracingonpage.jpg);
+        width: 735px;
+        height: 480px;
+    }
+}
+.dogpage {
+    @extend %pageonas;
+    .imgroulettepage{
+        background:url(../images/dogonpage.jpg);
+        width: 735px;
+        height: 480px;
+    }
+}

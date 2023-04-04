@@ -1,0 +1,63 @@
+@mixin font($family, $style, $weight, $size, $line, $color) {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+.header {
+    position: fixed;
+  width: 100%;
+  .logo {
+    display: flex;
+    text-decoration: none;
+    @include font(Roboto, normal, 700, 36px, 40px, #FFFFFF);
+}
+    .topbar {
+        display: flex;
+        flex-flow: row wrap;
+        background: rgb(9 22 47 / 64%);
+        padding: 10px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 12px;
+        color: rgb(255, 196, 54);
+        justify-content: space-evenly;
+        align-items: center;
+
+        .navbar {
+            display: flex;
+            padding: 30px;
+            justify-content: space-around;
+
+            align-items: center;
+        }
+
+
+
+        .flag {
+            padding-bottom: 10px;
+            width: 45px;
+            height: 40px;
+            background: url(../images/flag_ru.png);
+        }
+
+        .menu {
+            display: flex;
+            gap: 25px;
+
+            .amenu {
+                display: flex;
+                text-decoration: none;
+                @include font(Roboto, normal, 700, 16px, 15px, #FFFFFF);
+            }
+
+            .amenu:hover {
+                color: #FFC436;
+            }
+        }
+    }
+}

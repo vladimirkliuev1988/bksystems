@@ -1,0 +1,19 @@
+@mixin font($family, $style, $weight, $size, $line, $color) {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+.copyright {
+    display: flex;
+    background: #071737;
+    height: 99px;
+    justify-content: center;
+    align-items: center;
+
+    .allrights {
+        @include font(Roboto, normal, 600, 15px, 18px, #FFFFFF);
+    }
+}

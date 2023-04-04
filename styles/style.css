@@ -1,93 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-.live .rusters, .live .poker, .live .keno, .live .horseracing, .live .dogracing, .live .roulette {
-  width: 312px;
-  height: 262px;
-  background-repeat: no-repeat;
-  border-radius: 4px;
-}
-
-.contactsection .contactinformation .textcontact .iconwebsite, .contactsection .contactinformation .textcontact .iconemail, .contactsection .contactinformation .textcontact .icontel, .contactsection .contactinformation .textcontact .iconadress {
-  display: flex;
-  width: 70px;
-  height: 70px;
-  background: #14213A;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.footer .imagefooter .rustersfooter, .footer .imagefooter .roulettefooter, .footer .imagefooter .kenofooter, .footer .imagefooter .horseracingfooter, .footer .imagefooter .pokerfooter, .footer .imagefooter .dogracingfooter {
-  width: 97px;
-  height: 100px;
-}
-
-.dogpage, .horsepage, .kenopage, .rusterspage, .pokerpage, .roulettepage {
-  display: flex;
+.header {
+  position: fixed;
   width: 100%;
-  flex-wrap: wrap;
-  background: #09162F;
-  gap: 20px;
-  justify-content: space-evenly;
-  padding-top: 110px;
-  padding-bottom: 30px;
 }
-.dogpage .onastextarea, .horsepage .onastextarea, .kenopage .onastextarea, .rusterspage .onastextarea, .pokerpage .onastextarea, .roulettepage .onastextarea {
-  width: 735px;
-  height: 480px;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-h1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 64px;
-  line-height: 76px;
-  color: #FFFFFF;
-  text-transform: capitalize;
-}
-
-h2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 28px;
-  color: #FFFFFF;
-}
-
-h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-}
-
-h4 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 35px;
-  color: #FFFFFF;
-}
-
-p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
-  color: #FFFFFF;
-}
-
-.logo {
+.header .logo {
   display: flex;
   text-decoration: none;
   font-family: Roboto;
@@ -96,11 +12,6 @@ p {
   font-size: 36px;
   line-height: 40px;
   color: #FFFFFF;
-}
-
-.header {
-  position: fixed;
-  width: 100%;
 }
 .header .topbar {
   display: flex;
@@ -146,6 +57,22 @@ p {
   color: #FFC436;
 }
 
+.copyright {
+  display: flex;
+  background: #071737;
+  height: 99px;
+  justify-content: center;
+  align-items: center;
+}
+.copyright .allrights {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -155,7 +82,7 @@ p {
 .banner {
   display: flex;
   width: 100%;
-  background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/1.jpg);
+  background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/banner.jpg);
   background-size: cover;
 }
 .banner .bannertextarea {
@@ -222,7 +149,7 @@ p {
   padding-bottom: 30px;
 }
 .onas .imgonas {
-  background: url(../images/2.jpg);
+  background: url(../images/onas.jpg);
   width: 735px;
   height: 480px;
 }
@@ -234,7 +161,7 @@ p {
 .liveandvirtual {
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/3.jpg);
+  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/liveandvirtual.jpg);
   background-size: cover;
   flex-direction: column;
   align-items: center;
@@ -322,21 +249,21 @@ p {
   align-items: center;
 }
 .sovmestimost .sovmestimostelements .imgterminal {
-  background: url(../images/xl.webp);
+  background: url(../images/terminal.webp);
   width: 233px;
   height: 273px;
   border-radius: 8px;
   background-repeat: no-repeat;
 }
 .sovmestimost .sovmestimostelements .imgmonitor {
-  background: url(../images/xxl.webp);
+  background: url(../images/monitor.webp);
   width: 400px;
   height: 273px;
   border-radius: 8px;
   background-repeat: no-repeat;
 }
 .sovmestimost .sovmestimostelements .imgonline {
-  background: url(../images/xxxl.webp);
+  background: url(../images/online.webp);
   width: 233px;
   height: 273px;
   border-radius: 8px;
@@ -346,7 +273,7 @@ p {
 .onlinecasino {
   display: flex;
   width: 100%;
-  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/Online-casino-scaled.jpg);
+  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/backgroundonlinecasino.jpg);
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -520,12 +447,48 @@ p {
   }
 }
 
+.roulettepage .imgroulettepage {
+  background: url(../images/rouletteonpage.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.pokerpage .imgroulettepage {
+  background: url(../images/pokeronpage.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.rusterspage .imgroulettepage {
+  background: url(../images/rustersonpage.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.kenopage .imgroulettepage {
+  background: url(../images/kenoonpage.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.horsepage .imgroulettepage {
+  background: url(../images/horseracingonpage.jpg);
+  width: 735px;
+  height: 480px;
+}
+
+.dogpage .imgroulettepage {
+  background: url(../images/dogonpage.jpg);
+  width: 735px;
+  height: 480px;
+}
+
 .footer {
   padding-top: 30px;
   padding-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/4.jpg);
+  background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/footerimage.jpg);
   background-size: cover;
   justify-content: space-around;
 }
@@ -596,58 +559,6 @@ p {
   background: url(../images/footerruster.jpg);
 }
 
-.copyright {
-  display: flex;
-  background: #071737;
-  height: 99px;
-  justify-content: center;
-  align-items: center;
-}
-.copyright .allrights {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
-
-.roulettepage .imgroulettepage {
-  background: url(../images/roulette-gambling-1024x683.jpg);
-  width: 735px;
-  height: 480px;
-}
-
-.pokerpage .imgroulettepage {
-  background: url(../images/Poker-1024x683.jpg);
-  width: 735px;
-  height: 480px;
-}
-
-.rusterspage .imgroulettepage {
-  background: url(../images/Cockfight-1024x575.jpg);
-  width: 735px;
-  height: 480px;
-}
-
-.kenopage .imgroulettepage {
-  background: url(../images/keno-1024x683.jpg);
-  width: 735px;
-  height: 480px;
-}
-
-.horsepage .imgroulettepage {
-  background: url(../images/Horse-racing-1024x683.jpg);
-  width: 735px;
-  height: 480px;
-}
-
-.dogpage .imgroulettepage {
-  background: url(../images/greyhounds2502a-1024x683.jpg);
-  width: 735px;
-  height: 480px;
-}
-
 @media all and (max-width: 1100px) {
   .live {
     gap: 30px;
@@ -666,7 +577,7 @@ p {
     padding-bottom: 24px;
     display: flex;
     width: 100%;
-    background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/1.jpg);
+    background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/banner.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -749,6 +660,93 @@ p {
     flex-direction: column;
     align-items: center;
   }
+}
+.live .roulette, .live .dogracing, .live .horseracing, .live .keno, .live .poker, .live .rusters {
+  width: 312px;
+  height: 262px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.contactsection .contactinformation .textcontact .iconadress, .contactsection .contactinformation .textcontact .icontel, .contactsection .contactinformation .textcontact .iconemail, .contactsection .contactinformation .textcontact .iconwebsite {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: #14213A;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer .imagefooter .dogracingfooter, .footer .imagefooter .pokerfooter, .footer .imagefooter .horseracingfooter, .footer .imagefooter .kenofooter, .footer .imagefooter .roulettefooter, .footer .imagefooter .rustersfooter {
+  width: 97px;
+  height: 100px;
+}
+
+.roulettepage, .pokerpage, .rusterspage, .kenopage, .horsepage, .dogpage {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #09162F;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.roulettepage .onastextarea, .pokerpage .onastextarea, .rusterspage .onastextarea, .kenopage .onastextarea, .horsepage .onastextarea, .dogpage .onastextarea {
+  width: 735px;
+  height: 480px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 76px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
