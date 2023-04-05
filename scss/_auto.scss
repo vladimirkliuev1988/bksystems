@@ -1,0 +1,44 @@
+@mixin font($family, $style, $weight, $size, $line, $color) {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}
+
+%gameblock {
+    width: 312px;
+    height: 262px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+%icon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+%footerimage {
+    width: 97px;
+    height: 100px;
+}
+%pageonas {
+    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #09162F;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 110px;
+    padding-bottom: 30px;
+    .onastextarea {
+        width: 735px;
+        height: 480px;
+    }
+}

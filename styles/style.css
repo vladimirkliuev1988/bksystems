@@ -1,4 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+.live .rusters, .live .poker, .live .keno, .live .horseracing, .live .dogracing, .live .roulette {
+  width: 312px;
+  height: 262px;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.contactsection .contactinformation .textcontact .iconwebsite, .contactsection .contactinformation .textcontact .iconemail, .contactsection .contactinformation .textcontact .icontel, .contactsection .contactinformation .textcontact .iconadress {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer .imagefooter .rustersfooter, .footer .imagefooter .roulettefooter, .footer .imagefooter .kenofooter, .footer .imagefooter .horseracingfooter, .footer .imagefooter .pokerfooter, .footer .imagefooter .dogracingfooter {
+  width: 97px;
+  height: 100px;
+}
+
+.dogpage, .horsepage, .kenopage, .rusterspage, .pokerpage, .roulettepage {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #09162F;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.dogpage .onastextarea, .horsepage .onastextarea, .kenopage .onastextarea, .rusterspage .onastextarea, .pokerpage .onastextarea, .roulettepage .onastextarea {
+  width: 735px;
+  height: 480px;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -37,7 +73,7 @@
   padding-bottom: 10px;
   width: 45px;
   height: 40px;
-  background: url(../images/flag_ru.png);
+  background: url(../images/png/flag_ru.png);
 }
 .header .topbar .menu {
   display: flex;
@@ -82,7 +118,7 @@
 .banner {
   display: flex;
   width: 100%;
-  background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/banner.jpg);
+  background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/jpg/banner.jpg);
   background-size: cover;
 }
 .banner .bannertextarea {
@@ -149,7 +185,7 @@
   padding-bottom: 30px;
 }
 .onas .imgonas {
-  background: url(../images/onas.jpg);
+  background: url(../images/jpg/onas.jpg);
   width: 735px;
   height: 480px;
 }
@@ -161,7 +197,7 @@
 .liveandvirtual {
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/liveandvirtual.jpg);
+  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/jpg/liveandvirtual.jpg);
   background-size: cover;
   flex-direction: column;
   align-items: center;
@@ -186,22 +222,22 @@
   align-items: center;
 }
 .live .roulette {
-  background: url(../images/roulette.jpg);
+  background: url(../images/jpg/roulette.jpg);
 }
 .live .dogracing {
-  background: url(../images/dogracing.jpg);
+  background: url(../images/jpg/dogracing.jpg);
 }
 .live .horseracing {
-  background: url(../images/horseracing.jpg);
+  background: url(../images/jpg/horseracing.jpg);
 }
 .live .keno {
-  background: url(../images/keno.jpg);
+  background: url(../images/jpg/keno.jpg);
 }
 .live .poker {
-  background: url(../images/poker.jpg);
+  background: url(../images/jpg/poker.jpg);
 }
 .live .rusters {
-  background: url(../images/ruster.jpg);
+  background: url(../images/jpg/ruster.jpg);
 }
 .live .gametext {
   text-align: center;
@@ -249,21 +285,21 @@
   align-items: center;
 }
 .sovmestimost .sovmestimostelements .imgterminal {
-  background: url(../images/terminal.webp);
+  background: url(../images/web/terminal.webp);
   width: 233px;
   height: 273px;
   border-radius: 8px;
   background-repeat: no-repeat;
 }
 .sovmestimost .sovmestimostelements .imgmonitor {
-  background: url(../images/monitor.webp);
+  background: url(../images/web/monitor.webp);
   width: 400px;
   height: 273px;
   border-radius: 8px;
   background-repeat: no-repeat;
 }
 .sovmestimost .sovmestimostelements .imgonline {
-  background: url(../images/online.webp);
+  background: url(../images/web/online.webp);
   width: 233px;
   height: 273px;
   border-radius: 8px;
@@ -273,7 +309,7 @@
 .onlinecasino {
   display: flex;
   width: 100%;
-  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/backgroundonlinecasino.jpg);
+  background: linear-gradient(0deg, rgba(7, 20, 50, 0.8), rgba(7, 20, 50, 0.8)), url(../images/jpg/backgroundonlinecasino.jpg);
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -307,16 +343,16 @@
   gap: 20px;
 }
 .contactsection .contactinformation .textcontact .iconadress {
-  background-image: url(../images/icon1.png);
+  background-image: url(../images/png/icon1.png);
 }
 .contactsection .contactinformation .textcontact .icontel {
-  background-image: url(../images/icon2.png);
+  background-image: url(../images/png/icon2.png);
 }
 .contactsection .contactinformation .textcontact .iconemail {
-  background-image: url(../images/icon3.png);
+  background-image: url(../images/png/icon3.png);
 }
 .contactsection .contactinformation .textcontact .iconwebsite {
-  background-image: url(../images/icon4.png);
+  background-image: url(../images/png/icon4.png);
 }
 .contactsection .contactinformation .textcontact .textcontactinf {
   display: flex;
@@ -448,37 +484,37 @@
 }
 
 .roulettepage .imgroulettepage {
-  background: url(../images/rouletteonpage.jpg);
+  background: url(../images/jpg/rouletteonpage.jpg);
   width: 735px;
   height: 480px;
 }
 
 .pokerpage .imgroulettepage {
-  background: url(../images/pokeronpage.jpg);
+  background: url(../images/jpg/pokeronpage.jpg);
   width: 735px;
   height: 480px;
 }
 
 .rusterspage .imgroulettepage {
-  background: url(../images/rustersonpage.jpg);
+  background: url(../images/jpg/rustersonpage.jpg);
   width: 735px;
   height: 480px;
 }
 
 .kenopage .imgroulettepage {
-  background: url(../images/kenoonpage.jpg);
+  background: url(../images/jpg/kenoonpage.jpg);
   width: 735px;
   height: 480px;
 }
 
 .horsepage .imgroulettepage {
-  background: url(../images/horseracingonpage.jpg);
+  background: url(../images/jpg/horseracingonpage.jpg);
   width: 735px;
   height: 480px;
 }
 
 .dogpage .imgroulettepage {
-  background: url(../images/dogonpage.jpg);
+  background: url(../images/jpg/dogonpage.jpg);
   width: 735px;
   height: 480px;
 }
@@ -488,7 +524,7 @@
   padding-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/footerimage.jpg);
+  background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/jpg/footerimage.jpg);
   background-size: cover;
   justify-content: space-around;
 }
@@ -498,7 +534,7 @@
   width: 329px;
 }
 .footer .leftfooter .socialicons {
-  background: url(../images/social1.png);
+  background: url(../images/jpg/social1.png);
   width: 220px;
   height: 38.89px;
   background-repeat: no-repeat;
@@ -541,22 +577,22 @@
   gap: 10px;
 }
 .footer .imagefooter .dogracingfooter {
-  background: url(../images/footerdog.jpg);
+  background: url(../images/jpg/footerdog.jpg);
 }
 .footer .imagefooter .pokerfooter {
-  background: url(../images/footerpoker.jpg);
+  background: url(../images/jpg/footerpoker.jpg);
 }
 .footer .imagefooter .horseracingfooter {
-  background: url(../images/footerhorse.jpg);
+  background: url(../images/jpg/footerhorse.jpg);
 }
 .footer .imagefooter .kenofooter {
-  background: url(../images/footerkeno.jpg);
+  background: url(../images/jpg/footerkeno.jpg);
 }
 .footer .imagefooter .roulettefooter {
-  background: url(../images/footerroulette.jpg);
+  background: url(../images/jpg/footerroulette.jpg);
 }
 .footer .imagefooter .rustersfooter {
-  background: url(../images/footerruster.jpg);
+  background: url(../images/jpg/footerruster.jpg);
 }
 
 @media all and (max-width: 1100px) {
@@ -577,7 +613,7 @@
     padding-bottom: 24px;
     display: flex;
     width: 100%;
-    background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/banner.jpg);
+    background: linear-gradient(82.14deg, rgba(7, 20, 50, 0.7) 31.87%, rgba(11, 23, 49, 0) 87.21%), url(../images/jpg/banner.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -655,48 +691,12 @@
     display: flex;
     padding-bottom: 60px;
     display: flex;
-    background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/4.jpg);
+    background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/jpg/footerimage.jpg);
     background-size: cover;
     flex-direction: column;
     align-items: center;
   }
 }
-.live .roulette, .live .dogracing, .live .horseracing, .live .keno, .live .poker, .live .rusters {
-  width: 312px;
-  height: 262px;
-  background-repeat: no-repeat;
-  border-radius: 4px;
-}
-
-.contactsection .contactinformation .textcontact .iconadress, .contactsection .contactinformation .textcontact .icontel, .contactsection .contactinformation .textcontact .iconemail, .contactsection .contactinformation .textcontact .iconwebsite {
-  display: flex;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.footer .imagefooter .dogracingfooter, .footer .imagefooter .pokerfooter, .footer .imagefooter .horseracingfooter, .footer .imagefooter .kenofooter, .footer .imagefooter .roulettefooter, .footer .imagefooter .rustersfooter {
-  width: 97px;
-  height: 100px;
-}
-
-.roulettepage, .pokerpage, .rusterspage, .kenopage, .horsepage, .dogpage {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  background: #09162F;
-  gap: 20px;
-  justify-content: space-evenly;
-  padding-top: 110px;
-  padding-bottom: 30px;
-}
-.roulettepage .onastextarea, .pokerpage .onastextarea, .rusterspage .onastextarea, .kenopage .onastextarea, .horsepage .onastextarea, .dogpage .onastextarea {
-  width: 735px;
-  height: 480px;
-}
-
 body {
   margin: 0px;
   padding: 0px;

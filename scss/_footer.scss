@@ -3,7 +3,7 @@
     padding-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
-    background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/footerimage.jpg);
+    background: linear-gradient(0deg, rgba(15, 27, 51, 0.9), rgba(15, 27, 51, 0.9)), url(../images/jpg/footerimage.jpg);
     background-size: cover;
     justify-content: space-around;
 
@@ -13,7 +13,7 @@
         width: 329px;
 
         .socialicons {
-            background: url(../images/social1.png);
+            background: url(../images/jpg/social1.png);
             width: 220px;
             height: 38.89px;
             background-repeat: no-repeat;
@@ -52,32 +52,32 @@
         gap: 10px;
 
         .dogracingfooter {
-            background: url(../images/footerdog.jpg);
+            background: url(../images/jpg/footerdog.jpg);
             @extend %footerimage;
         }
 
         .pokerfooter {
-            background: url(../images/footerpoker.jpg);
+            background: url(../images/jpg/footerpoker.jpg);
             @extend %footerimage;
         }
 
         .horseracingfooter {
-            background: url(../images/footerhorse.jpg);
+            background: url(../images/jpg/footerhorse.jpg);
             @extend %footerimage;
         }
 
         .kenofooter {
-            background: url(../images/footerkeno.jpg);
+            background: url(../images/jpg/footerkeno.jpg);
             @extend %footerimage;
         }
 
         .roulettefooter {
-            background: url(../images/footerroulette.jpg);
+            background: url(../images/jpg/footerroulette.jpg);
             @extend %footerimage;
         }
 
         .rustersfooter {
-            background: url(../images/footerruster.jpg);
+            background: url(../images/jpg/footerruster.jpg);
             @extend %footerimage;
         }
     }
